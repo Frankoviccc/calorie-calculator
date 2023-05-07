@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <img src="arnold.png" class="result-container" id="result-container">
+            <p id="result-text"></p>
+        <h2 id="h2">Bereken jouw caloriebehoefte</h2>
+        <form id="myForm">
+        <div class="input-fields">
+            <label for="lengte">Lengte
+                <input  type="text" name="lengte" id="lengte" required>
+            </label>
+            <label for="gewicht">Gewicht
+                <input type="text" name="gewicht" id="gewicht" required>
+            </label>
+            <label for="leeftijd">Leeftijd
+                <input type="text" name="leeftijd" id="leeftijd" required>
+            </label>
+        </div>
+        </form>
+        <div class="drop-fields" id="drop-fields">
+            <label for="geslacht">Geslacht
+                <select name="geslacht" id="geslacht">
+                    <option value="man">Man</option>
+                    <option value="vrouw">Vrouw</option>
+                </select>
+            </label>
+            <label for="beweging">Lichaamsbeweging
+                <select name="beweging" id="beweging">
+                    <option value="weinig">Weinig</option>
+                    <option value="soms">Soms (1 tot 3 keer sporten per week)</option>
+                    <option value="vaak">Vaak (3 tot 5 keer sporten per week)</option>
+                    <option value="sportief">Dagelijks sportief</option>
+                    <option value="intensief">Dagelijks intensieve sport</option>
+                </select>
+            </label>
+        </div>
+        <div class="btns" id="btns">
+            <button id="deleteBtn">Wissen</button>
+            <button type="submit" id="rekenBtn">REKEN UIT</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

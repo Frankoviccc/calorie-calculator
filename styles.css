@@ -1,0 +1,97 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 8px #000;
+}
+
+.result-container {
+    position: absolute;
+    margin: 50px auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 500px;
+    height: 550px;
+    display: none;
+}
+
+.input-fields {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 200px;
+    margin-left: 50px;
+    gap: 50px;
+}
+
+input, label, select, button {
+    display: block;
+}
+
+label {
+    text-align: start;
+}
+
+input {
+    padding: 10px 30px;
+    box-shadow: 0 0 0.1px #000;
+}
+
+select {
+    padding: 10px 30px;
+    text-align: center;
+    box-shadow: 0 0 3px #000;
+}
+
+.drop-fields {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 150px;
+    margin-left: 50px;
+    gap: 50px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 150px;
+    margin-left: 50px;
+    gap: 50px;
+}
+
+button {
+    padding: 30px 50px;
+    box-shadow: 0 0 2px #000;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#rekenBtn {
+    background-color: greenyellow;
+    border-radius: 0 5px 0 5px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+h2 {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+#result-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+#beweging, #geslacht {
+    width: 250px;
+}
